@@ -10,6 +10,6 @@ class RectangleGeometry:
         return 2*self.length+2*self.breadth
 
 
-s=rectangleGeometry(5)
+s= RectangleGeometry(5,4)
 print(s.getArea())
 print(s.getPerimeter())
